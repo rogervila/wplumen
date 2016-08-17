@@ -1,21 +1,27 @@
-## Lumen PHP Framework
+# WpLumen
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+[Laravel Lumen](https://lumen.laravel.com/docs/5.2) framework dressed as a Wordpress theme, that uses Eloquent Models.
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+As a starter, it comes with [Rollup.js](https://github.com/JeffreyWay/Laravel-Elixir-Rollup) and [Stylus](https://github.com/JeffreyWay/laravel-elixir-stylus) for Laravel Elixir, but you can change this from the `package.json` and `gulpfile.js` files.
 
-## Official Documentation
+All questions/bugs/pull requests related with Lumen itself should be made on [the original Lumen repository](https://github.com/laravel/lumen), but if you find some problems with the Wordpress integration, all issues and pull requests will be appreciated :)
 
-Documentation for the framework can be found on the [Lumen website](http://lumen.laravel.com/docs).
+## Installation
 
-## Security Vulnerabilities
+1) [Install a new Wordpress project](https://codex.wordpress.org/Installing_WordPress).
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+2) Clone the repo content into `wp-content\themes\wplumen` folder
 
-### License
+3) Open the terminal, go to the `wplumen` folder and [run composer](https://getcomposer.org/doc/00-intro.md). 
 
-The Lumen framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+6) On the same folder, with the terminal, run `$ sudo npm install`, and then `$ sudo gulp` (without the $ sign!)
+
+5) On the `wplumen` folder, rename the `.env.example` to `.env`, and change the database values with the Wordpress values, that you will find on a `wp-config.php` file at the root of the project.
+
+6) Login in to your wordpress admin panel and change the current theme to 'WpLumen'
+
+7) Profit
+
+## License
+
+Since Lumen is under [MIT License](https://opensource.org/licenses/MIT) and Wordpress is under [GNU General Public License](https://wordpress.org/about/gpl/), and this repo is nothing more than a merge of both projects, this repo has no license. (But it will be nice if you [say my name](http://www.rogervila.es) when you share it!).
