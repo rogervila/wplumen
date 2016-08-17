@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - wplumen@localhost" uuid="e4af622a-2b3e-4060-994f-ebb1df50bf31">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>wplumen:</introspection-scope>
+      <resolve-scope>wplumen:</resolve-scope>
+    </data-source>
+  </component>
+</project>
