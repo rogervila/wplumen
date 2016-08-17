@@ -22,10 +22,12 @@ All questions/bugs/pull requests related with Lumen itself should be made on [th
 
 7) Profit
 
-## TODO
+## Todos
 
 - Eloquent models and relationships for [Wordpress database](https://codex.wordpress.org/Database_Description)
 - Automatically get `wp-config.php` database values instead of retrieving them from `.env` configuration
+- Tests
+- Woocommerce Support
 
 ## License
 
