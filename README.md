@@ -22,6 +22,11 @@ All questions/bugs/pull requests related with Lumen itself should be made on [th
 
 7) Profit
 
+## TODO
+
+- Eloquent models and relationships for [Wordpress database](https://codex.wordpress.org/Database_Description)
+- Automatically get `wp-config.php` database values instead of retrieving them from `.env` configuration
+
 ## License
 
 Since Lumen is under [MIT License](https://opensource.org/licenses/MIT) and Wordpress is under [GNU General Public License](https://wordpress.org/about/gpl/), and this repo is nothing more than a merge of both projects, this repo has no license. (But it will be nice if you [say my name](http://www.rogervila.es) when you share it!).
