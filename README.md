@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rogervila/wplumen.svg?branch=master)](https://travis-ci.org/rogervila/wplumen)
+
 # WpLumen
 
 [Laravel Lumen](https://lumen.laravel.com/docs/5.2) framework dressed as a Wordpress theme, that uses Eloquent Models.
