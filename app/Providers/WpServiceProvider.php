@@ -13,8 +13,9 @@ class WpServiceProvider extends ServiceProvider
 	public function register()
 	{
 		// Define Wordpress Table Prefix;
-		global $wpdb;
-		define('TABLE_PREFIX', $wpdb->prefix);
+		if( isset($GLOBALS['wpdb']->prefix) ){
+			define('TABLE_PREFIX', $GLOBALS['wpdb']->prefix);
+		}
 	}
 
 
