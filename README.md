@@ -2,6 +2,8 @@
 
 # WpLumen
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rogervila/wplumen.svg)](https://greenkeeper.io/)
+
 [Laravel Lumen](https://lumen.laravel.com/docs/5.2) framework dressed as a Wordpress theme, that uses Eloquent Models.
 
 As a starter, it comes with [Rollup.js](https://github.com/JeffreyWay/Laravel-Elixir-Rollup) and [Stylus](https://github.com/JeffreyWay/laravel-elixir-stylus) for Laravel Elixir, but you can change this from the `package.json` and `gulpfile.js` files.
