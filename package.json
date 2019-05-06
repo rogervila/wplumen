@@ -5,7 +5,7 @@
     "dev": "gulp watch"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "laravel-elixir": "^6.0.0-9",
     "laravel-elixir-rollup-official": "^1.0.4",
     "laravel-elixir-stylus": "^2.0.3",
